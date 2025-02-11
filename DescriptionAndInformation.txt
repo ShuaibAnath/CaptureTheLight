@@ -1,0 +1,30 @@
+Introduction
+In this practical you will be expected to design and simulate a mini-game.
+This practical will have 3 stages, with each stage using concepts from the 
+previous stage. Stage 1 will be the pre-practical and is important for stages 2 and 3 
+conceptually.The simulator tool that you will use for this project is Wokwi. 
+It is a new simulator but quite feature rich. Arduino has a webpage on 
+how to use Wokwi (link: https://create.arduino.cc/projecthub/Hack-star-Arduino/how-to-use-wokwi-arduino-simulator-in-2022-what-is-wokwi-304e6b ).
+You can also check out Wokwi’s documentation (link: https://docs.wokwi.com/?utm_source=wokw ).
+different sequence than the one shown at the beginning of the level).
+
+The game – Capture The Light
+There are 4 levels of this game. This is a game where a single LED is first lit at 
+random, this LED indicates which LED is the one that must be ‘captured’, 
+known as the target LED. The game setup has an array of LEDs with a single pushbutton. 
+At each level the objective is to capture the target LED, to do this the user must 
+press a button when the target LED is lit. After lighting the target LED the game 
+begins with a specific number of LEDs being lit at random one by one at a certain 
+speed (the number of LEDs lit is based on the level the player is playing). 
+If the user presses the button while the target LED is not lit, they lose the game
+and must restart. When the target LED is lit the user must press the pushbutton, 
+at this point the LEDs must be lit in a certain sequence if the user successfully
+presses the button fast enough ( the sequence shows the player that the level has 
+been completed and the target LED has been successfully ‘captured’), it must then 
+be indicated to the user that the next level will start. 
+The levels increase in difficulty by the random lighting increasing in 
+speed and variability until the user finishes the game at the final level. 
+Note that the there must be 4 levels in total.
+
+Link to instructions PDF for the practical:
+https://drive.google.com/file/d/19pPL1LNVV66ZrL58oj6mFG7kfWjSDnbw/view?usp=sharing
